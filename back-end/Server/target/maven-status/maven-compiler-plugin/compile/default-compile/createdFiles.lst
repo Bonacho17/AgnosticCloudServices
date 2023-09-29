@@ -1,0 +1,7 @@
+modelinterface\Server$RemoveHandler.class
+modelinterface\Server$ServiceStateHandler.class
+modelinterface\Server$UpdateHandler.class
+modelinterface\Server$ListServicesHandler.class
+modelinterface\Server$MigrateHandler.class
+modelinterface\Server$DeployHandler.class
+modelinterface\Server.class

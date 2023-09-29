@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 11
+Class-Path: kubernetes-client-5.9.0.jar kubernetes-model-core-5.9.0.jar 
+ kubernetes-model-common-5.9.0.jar jackson-annotations-2.13.0.jar kubern
+ etes-model-rbac-5.9.0.jar kubernetes-model-admissionregistration-5.9.0.
+ jar kubernetes-model-apps-5.9.0.jar kubernetes-model-autoscaling-5.9.0.
+ jar kubernetes-model-apiextensions-5.9.0.jar kubernetes-model-batch-5.9
+ .0.jar kubernetes-model-certificates-5.9.0.jar kubernetes-model-coordin
+ ation-5.9.0.jar kubernetes-model-discovery-5.9.0.jar kubernetes-model-e
+ vents-5.9.0.jar kubernetes-model-extensions-5.9.0.jar kubernetes-model-
+ flowcontrol-5.9.0.jar kubernetes-model-networking-5.9.0.jar kubernetes-
+ model-metrics-5.9.0.jar kubernetes-model-policy-5.9.0.jar kubernetes-mo
+ del-scheduling-5.9.0.jar kubernetes-model-storageclass-5.9.0.jar kubern
+ etes-model-node-5.9.0.jar okhttp-3.12.12.jar okio-1.15.0.jar logging-in
+ terceptor-3.12.12.jar slf4j-api-1.7.32.jar jackson-dataformat-yaml-2.13
+ .0.jar snakeyaml-1.28.jar jackson-datatype-jsr310-2.13.0.jar jackson-da
+ tabind-2.13.0.jar jackson-core-2.13.0.jar zjsonpatch-0.3.0.jar generex-
+ 1.0.2.jar automaton-1.11-8.jar Utils-0.0.1.jar
+Main-Class: agnosticcloudinterface.AzureConfig
+Created-By: Maven Integration for Eclipse
+
