@@ -1,0 +1,45 @@
+{
+  "name": "WebApp",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.0.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@eclipse-emfcloud/theia-tree-editor": "next",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@jsonforms/core": "^3.1.0",
+    "@jsonforms/examples": "^3.1.0",
+    "@jsonforms/material-renderers": "^3.1.0",
+    "@jsonforms/react": "^3.1.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
+    "@mui/x-date-pickers": "^6.9.2",
+    "@theia/core": "latest",
+    "@theia/editor": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/workspace": "latest",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/material-ui": "^0.21.12",
+    "rimraf": "latest",
+    "typescript": "~4.5.5"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/WebApp-frontend-module"
+    }
+  ]
+}
